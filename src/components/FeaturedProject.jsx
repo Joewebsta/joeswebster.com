@@ -8,7 +8,7 @@ const FeaturedProject = () => {
         Featured Project
       </h2>
       <img className="mb-7" src="otto-ui.png" alt="Otto user interface" />
-      <img src={ottoLogo} alt="" className="mb-4 h-[23px]" />
+      <img src={ottoLogo} alt="" className="mb-4 h-[25px]" />
       <p className="mb-4">
         Otto is an open-source and web-based ETL (extract, transform, load) tool
         that automates the gathering, transforming, and loading of business data
@@ -21,7 +21,8 @@ const FeaturedProject = () => {
       </p>
       <a
         href="https://www.otto-etl.com/"
-        className="flex w-full items-center justify-center gap-1 rounded-md bg-gradient-to-r from-[#3C4BCB] to-[#343799] px-4 py-3 font-medium text-white"
+        target="_blank"
+        className="flex w-full items-center justify-center gap-1 rounded-md bg-gradient-to-r from-[#3C4BCB] to-[#343799] px-4 py-3 font-medium text-white hover:from-[#3941bc] hover:to-[#2e327a]"
       >
         Read Case Study
       </a>

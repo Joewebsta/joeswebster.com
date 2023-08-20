@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "./Project";
+import { IconSwords, IconApiApp } from "@tabler/icons-react";
 
 const Projects = () => {
   return (
@@ -19,21 +20,24 @@ const Projects = () => {
           "Nginx",
           "PM2",
         ]}
-        color="#3c4c6c"
+        textColor="text-questbin-blue"
+        borderColor="border-questbin-blue"
+        icon={<IconSwords size={24} strokeWidth="1.5" color={"#465b87"} />}
       />
       <Project
-        imageSrc="questbin-ui.png"
-        title="Questbin"
-        description="Collect, inspect, and debug HTTP requests and webhooks"
+        imageSrc="astral-ui.png"
+        title="Astral"
+        description="Create and manage software engineering tasks and issues"
         technologies={[
-          "React",
-          "Express.js",
-          "PostgreSQL",
-          "DigitalOcean Droplet",
-          "Nginx",
-          "PM2",
+          "Vanilla JavaScript",
+          "HTML",
+          "CSS",
+          "Handlebars.js",
+          "MVC",
         ]}
-        color="#3c4c6c"
+        textColor="text-astral-purple"
+        borderColor="border-astral-purple"
+        icon={<IconApiApp size={24} strokeWidth="1.5" color={"#8B559B"} />}
       />
     </div>
   );
