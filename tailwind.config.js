@@ -7,7 +7,7 @@ export default {
       colors: {
         tan: "#EDE5E1",
         "tan-hover": "#DCCDC5",
-        "black-hero": "#181818",
+        "otto-black": "#181818",
       },
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
