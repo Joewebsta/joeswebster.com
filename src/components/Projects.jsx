@@ -5,7 +5,7 @@ import { IconSwords, IconApiApp } from "@tabler/icons-react";
 const Projects = () => {
   return (
     <div className="container mx-auto max-w-5xl px-6">
-      <h2 className="mb-12 mt-20 text-xl font-medium uppercase">
+      <h2 className="text-clamp-h2 mb-12 mt-20 font-medium uppercase">
         Other Projects
       </h2>
       <Project

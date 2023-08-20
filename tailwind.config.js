@@ -16,6 +16,7 @@ export default {
       },
       fontSize: {
         "clamp-h1": "clamp(1.875rem, 5vw, 2.0625rem)",
+        "clamp-h2": "clamp(20px, 3vw, 24px)",
         "clamp-p": "clamp(16px, 3vw, 24px)",
       },
     },

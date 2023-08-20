@@ -1,20 +1,25 @@
 import React from "react";
 import ottoLogo from "../assets/otto-logo.svg";
+import { IconBook } from "@tabler/icons-react";
 
 const FeaturedProject = () => {
   return (
-    <div className="container mx-auto max-w-5xl px-6">
-      <h2 className="mb-12 mt-16 text-xl font-medium uppercase">
+    <div className="container mx-auto flex max-w-5xl flex-col px-6 sm:items-start">
+      <h2 className="text-clamp-h2 mb-12 mt-16 font-medium uppercase">
         Featured Project
       </h2>
       <img className="mb-7" src="otto-ui.png" alt="Otto user interface" />
-      <img src={ottoLogo} alt="" className="mb-4 h-[25px]" />
-      <p className="mb-4">
+      <img
+        src={ottoLogo}
+        alt=""
+        className="mb-4 h-[25px] self-start sm:h-[34px]"
+      />
+      <p className="text-clamp-p mb-4">
         Otto is an open-source and web-based ETL (extract, transform, load) tool
         that automates the gathering, transforming, and loading of business data
         at scheduled intervals.
       </p>
-      <p className="mb-7">
+      <p className="text-clamp-p mb-7">
         Otto prioritizes ease of use for JavaScript developers and provides
         observability features that enable users to monitor the execution and
         health of their ETL workflows.
@@ -22,8 +27,9 @@ const FeaturedProject = () => {
       <a
         href="https://www.otto-etl.com/"
         target="_blank"
-        className="flex w-full items-center justify-center gap-1 rounded-md bg-gradient-to-r from-[#3C4BCB] to-[#343799] px-4 py-3 font-medium text-white hover:from-[#3941bc] hover:to-[#2e327a]"
+        className="flex items-center justify-center gap-2 rounded-md bg-gradient-to-r from-[#3C4BCB] to-[#343799] px-4 py-3 font-medium text-white hover:from-[#3941bc] hover:to-[#2e327a] sm:px-14"
       >
+        <IconBook size={24} strokeWidth="1.5" />
         Read Case Study
       </a>
     </div>

@@ -14,7 +14,7 @@ const Hero = () => {
             src={headshot}
             alt="Picture of Joe Webster"
           />
-          <div className="flex flex-col gap-6 sm:items-start ">
+          <div className="flex flex-col gap-6 sm:items-start">
             <p className="text-tan text-clamp-p">
               Full-stack software engineer experienced in JavaScript, Ruby,
               React, Express, Tailwind and PostgreSQL. I enjoy learning new
