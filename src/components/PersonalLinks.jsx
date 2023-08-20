@@ -8,7 +8,7 @@ import {
 
 const PersonalLinks = () => {
   return (
-    <div className="mb-7 flex justify-center gap-5">
+    <div className="flex justify-center gap-5">
       <a
         target="_blank"
         href="/joe-webster-resume.pdf"
