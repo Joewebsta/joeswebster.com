@@ -18,7 +18,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="sm:gap-15 container mx-auto flex max-w-5xl flex-col gap-12 px-6 pt-20 sm:pt-32">
+    <div className="sm:gap-15 container mx-auto flex max-w-5xl flex-col gap-12 px-6 pt-20 sm:pb-24 sm:pt-32">
       <h2 className="text-clamp-h2 font-medium uppercase sm:text-3xl">
         Other Projects
       </h2>
