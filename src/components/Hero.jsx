@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="hero bg-otto-black">
       <div className="container mx-auto max-w-5xl px-6 pt-6">
         <Navbar />
-        <div className="flex flex-col items-center gap-6 py-6 sm:flex-row sm:flex-row-reverse sm:items-start sm:gap-14 sm:py-20">
+        <div className="flex flex-col items-center gap-6 pb-10 pt-6 sm:flex-row-reverse sm:items-start sm:gap-14 sm:py-24">
           <img
             className="border-tan max-w-[230px] rounded-[10px] border sm:mx-0"
             src={headshot}
@@ -35,7 +35,7 @@ const Hero = () => {
             <a
               href="/joe-webster-resume.pdf"
               target="_blank"
-              className="bg-tan hover:bg-tan-hover flex items-center justify-center gap-1 rounded-md px-4 py-3 font-medium sm:px-14 md:mt-5"
+              className="bg-tan hover:bg-tan-hover flex items-center justify-center gap-1 rounded-md px-4 py-[10px] font-medium sm:px-14 md:mt-5"
             >
               <IconFileCv size={28} strokeWidth="1.5" />
               View Resume
