@@ -8,6 +8,7 @@ export default {
         tan: "#EDE5E1",
         "tan-hover": "#DCCDC5",
         "otto-black": "#181818",
+        "otto-blue": "#2e327a",
         "questbin-blue": "#465b87",
         "astral-purple": "#8B559B",
       },

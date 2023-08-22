@@ -49,8 +49,8 @@ const FeaturedProject = () => {
             "SSE",
             "Oauth 2.0",
           ]}
-          textColor="text-questbin-blue"
-          borderColor="border-questbin-blue"
+          textColor="text-otto-blue"
+          borderColor="border-otto-blue"
         />
         <a
           href="https://www.otto-etl.com/case_study"
