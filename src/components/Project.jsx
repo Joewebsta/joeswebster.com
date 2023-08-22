@@ -1,4 +1,5 @@
 import React from "react";
+import TechTags from "./TechTags";
 
 const Project = ({
   imageSrc,
@@ -17,18 +18,17 @@ const Project = ({
           {title}
         </h3>
       </div>
-      <img className="" src={imageSrc} alt={`${title} user interface`} />
+      <img
+        className="box-shadow rounded-[10px]"
+        src={imageSrc}
+        alt={`${title} user interface`}
+      />
       <p className="text-clamp-p">{description}</p>
-      <div className="flex flex-wrap gap-2">
-        {technologies.map((tech, index) => (
-          <div
-            key={index}
-            className={`${textColor} ${borderColor} rounded border px-2`}
-          >
-            {tech}
-          </div>
-        ))}
-      </div>
+      <TechTags
+        technologies={technologies}
+        textColor={textColor}
+        borderColor={borderColor}
+      />
     </div>
   );
 };
