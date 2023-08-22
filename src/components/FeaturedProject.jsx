@@ -23,8 +23,8 @@ const FeaturedProject = () => {
         />
         <p className="text-clamp-p">
           Otto is an open-source and web-based ETL (extract, transform, load)
-          tool that automates the gathering, transforming, and loading of
-          business data at scheduled intervals.
+          pipeline tool that automates the gathering, transforming, and loading
+          of business data at scheduled intervals.
         </p>
         <img
           className="box-shadow self-start rounded-[10px]"

@@ -24,7 +24,7 @@ const Hero = () => {
             </p>
             <p className="text-clamp-p text-tan">
               I recently co-created Otto, an open-source, web-based, and
-              automated ETL (extract, transform, load) workflow tool.{" "}
+              automated ETL (extract, transform, load) pipeline tool.{" "}
               <a
                 href="https://www.otto-etl.com/"
                 target="_blank"
