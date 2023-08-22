@@ -30,8 +30,9 @@ const Hero = () => {
                 target="_blank"
                 className="underline"
               >
-                Learn more.
+                Learn more
               </a>
+              .
             </p>
             <a
               href="/joe-webster-resume.pdf"
