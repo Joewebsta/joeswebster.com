@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  IconFileCv,
+  IconFileText,
   IconBrandGithub,
   IconMail,
   IconBrandLinkedin,
@@ -12,28 +12,28 @@ const PersonalLinks = () => {
       <a
         target="_blank"
         href="/joe-webster-resume.pdf"
-        className="bg-tan hover:bg-tan-hover flex h-9 w-9 items-center justify-center rounded-md"
+        className="flex h-9 w-9 items-center justify-center rounded-md bg-tan hover:bg-tan-hover"
       >
-        <IconFileCv size={28} strokeWidth="1.5" />
+        <IconFileText size={28} strokeWidth="1.5" />
       </a>
       <a
         target="_blank"
         href="mailto:joe.scott.webster@gmail.com"
-        className="bg-tan hover:bg-tan-hover flex h-9 w-9 items-center justify-center rounded-md"
+        className="flex h-9 w-9 items-center justify-center rounded-md bg-tan hover:bg-tan-hover"
       >
         <IconMail size={28} strokeWidth="1.5" />
       </a>
       <a
         target="_blank"
         href="https://www.linkedin.com/in/joeswebster/"
-        className="bg-tan hover:bg-tan-hover flex h-9 w-9 items-center justify-center rounded-md"
+        className="flex h-9 w-9 items-center justify-center rounded-md bg-tan hover:bg-tan-hover"
       >
         <IconBrandLinkedin size={28} strokeWidth="1.5" />
       </a>
       <a
         target="_blank"
         href="https://github.com/Joewebsta"
-        className="bg-tan hover:bg-tan-hover flex h-9 w-9 items-center justify-center rounded-md"
+        className="flex h-9 w-9 items-center justify-center rounded-md bg-tan hover:bg-tan-hover"
       >
         <IconBrandGithub size={28} strokeWidth="1.5" />
       </a>
