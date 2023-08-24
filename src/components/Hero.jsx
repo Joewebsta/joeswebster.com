@@ -16,11 +16,11 @@ const Hero = () => {
           />
           <div className="flex flex-col gap-6 sm:items-start">
             <p className="text-clamp-p text-tan">
-              Hi, I'm a Full-stack software engineer with 2+ years of experience
-              based in Boston, MA. I'm most passionate about the JavaScript
-              ecosystem, and also Ruby, React, Express, Tailwind CSS, and
-              PostgreSQL. I enjoy learning new skills, designing robust systems
-              and building products with strong UX + UI.
+              Hi, I'm a Full-stack software engineer with multiple years of
+              experience based in Boston, MA. I'm most passionate about the
+              JavaScript ecosystem, and also Ruby, React, Express, Tailwind CSS,
+              and PostgreSQL. I enjoy learning new skills, designing robust
+              systems and building products with strong UX + UI.
             </p>
             <p className="text-clamp-p text-tan">
               I recently created Otto, an open-source, web-based, and automated
