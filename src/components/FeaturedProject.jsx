@@ -41,12 +41,15 @@ const FeaturedProject = () => {
             "React",
             "React Flow",
             "Material UI",
+            "Node.js",
             "Express.js",
             "PostgreSQL",
+            "NodeVM",
+            "CodeMirror",
             "REST",
             "Cron",
             "Docker",
-            "SSE",
+            "Server Sent Events",
             "Oauth 2.0",
           ]}
           textColor="text-otto-blue"
