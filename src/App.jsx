@@ -3,9 +3,10 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import FeaturedProject from "./components/FeaturedProject";
 import Footer from "./components/Footer";
-import { inject } from "@vercel/analytics";
+import { Analytics } from "@vercel/analytics/react";
+// import { inject } from "@vercel/analytics";
 
-inject();
+// inject();
 
 import "./styles/reset.css";
 
@@ -16,6 +17,7 @@ function App() {
       <FeaturedProject />
       <Projects />
       <Footer />
+      <Analytics />
     </>
   );
 }
