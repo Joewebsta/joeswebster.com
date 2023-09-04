@@ -11,7 +11,7 @@ const PersonalLinks = () => {
     <div className="flex justify-center gap-5">
       <a
         target="_blank"
-        href="/joe-webster-resume.pdf"
+        href="/resume.pdf"
         className="flex h-9 w-9 items-center justify-center rounded-md bg-tan hover:bg-tan-hover"
       >
         <IconFileText size={28} strokeWidth="1.5" />

@@ -35,7 +35,7 @@ const Hero = () => {
               .
             </p>
             <a
-              href="/joe-webster-resume.pdf"
+              href="/resume.pdf"
               target="_blank"
               className="flex items-center justify-center gap-1 rounded-md bg-tan px-4 py-[10px] font-medium hover:bg-tan-hover sm:mt-5 sm:px-14 sm:text-lg"
             >
