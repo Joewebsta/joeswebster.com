@@ -51,7 +51,7 @@ const Projects = () => {
       ],
       textColor: "text-astral-purple",
       borderColor: "border-astral-purple",
-      icon: <IconApiApp size={iconSize} strokeWidth="1.5" color={"#5d534f"} />,
+      icon: <IconApiApp size={iconSize} strokeWidth="1.5" color={"#70625e"} />,
     },
   ];
 
