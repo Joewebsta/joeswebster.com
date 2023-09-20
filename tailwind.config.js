@@ -11,6 +11,7 @@ export default {
         "otto-blue": "#2e327a",
         "questbin-blue": "#465b87",
         "astral-purple": "#8B559B",
+        "circuit-tan": "#70625e",
       },
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
