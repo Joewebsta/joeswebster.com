@@ -18,7 +18,7 @@ const Hero = () => {
             <p className="text-clamp-p text-tan">
               Hi, I'm a Full-stack software engineer with multiple years of
               experience based in Boston, MA. I'm most passionate about the
-              JavaScript ecosystem, and also Ruby, React, Express, Tailwind CSS,
+              JavaScript ecosystem, and also Ruby, React, Next.js, Tailwind CSS,
               and PostgreSQL. I enjoy learning new skills, designing robust
               systems and building products with strong UX + UI.
             </p>
