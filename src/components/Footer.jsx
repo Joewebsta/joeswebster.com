@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="hero bg-otto-black">
       <div className="container mx-auto flex max-w-5xl items-center justify-center gap-2 px-6 py-4">
         <IconCopyright size={20} color="#FFF" strokeWidth={1.5} />
-        <p className="text-tan">2023 Joe Webster</p>
+        <p className="text-tan">2024 Joe Webster</p>
       </div>
     </div>
   );
